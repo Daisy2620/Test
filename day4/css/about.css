@@ -1,0 +1,140 @@
+@charset "utf-8";
+/* CSS Document */
+#page1 #content .col-1 {width:348px; margin-right:74px;}
+#page1 #content .col-2 { width:227px;}
+
+/*======= about html =======*/
+#page2 #content .col-1 {width:348px; margin-right:74px;}
+#page2 #content .col-2 { width:227px;}
+
+
+
+body { 
+	background:url(../pic/tail-top.jpg) repeat-x center top #000; 
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:100%; 
+	line-height:1em;
+	color:#a6a6a6;
+}
+html { 
+	min-width:1000px;
+}
+html, 
+body { 
+	height:100%;
+}
+.container {
+	margin:0 auto;
+	overflow:hidden;
+	width:1000px;
+	font-size:.875em;
+	padding:60px 0 140px 0;
+}
+
+	header .container {
+		height:467px;
+		position:relative;
+		padding:0;
+	}
+	
+
+	aside {
+		width:311px;
+		position:relative;
+		z-index:10;
+		float:left;
+		margin-right:-10px;
+	}
+	
+
+	section#content {
+		position:relative;
+		z-index:10;
+		width:650px;
+		float:left;
+	}
+	
+	
+	footer {
+		background:url(../pic/tail-bottom.jpg) repeat-x center top;
+		margin-top:-229px;
+	}
+		footer .container {
+			height:229px;
+			text-align:center;
+			color:#fff;
+			padding:0;
+			line-height:1.429em;
+		}
+		
+header nav {
+	position:absolute;
+	right:60px;
+	top:0;
+	z-index:20;
+}
+	header nav ul li {
+		float:left;
+		font-size:16px;
+		line-height:1.2em;
+		padding-left:13px;
+	}
+		header nav ul li a {
+			text-decoration:none;
+			display:block;
+			color:#aeaeae;
+			background-image:url(../images/spacer.gif);
+			background-repeat:no-repeat;
+			background-position:left top;
+		}
+		header nav ul li a:hover,
+		header nav ul li a.active {
+			color:#000;
+			background-image:url(../images/nav-act-left.png);
+		}
+			header nav ul li a span {
+				display:block;
+				padding:0 3px;
+				background-repeat:no-repeat;
+				background-image:url(../images/spacer.gif);
+				background-position:right top;
+			}
+			header nav ul li a:hover span,
+			header nav ul li a.active span {
+				background-image:url(../images/nav-act-right.png);
+			}
+				header nav ul li a span span {
+					padding:40px 20px 26px 20px;
+					background-repeat:repeat-x;
+					background-image:url(../images/spacer.gif);
+				}
+				header nav ul li a:hover span span,
+				header nav ul li a.active span span {
+					background-image:url(../images/nav-act-tail.gif);}
+					
+#content .inside {
+	padding:0 0 0 60px;
+}
+#content.extra {
+	width:auto;
+}
+#content .list li {
+	padding-bottom:8px;
+}
+
+
+aside .inside {
+	padding:0 0 0 60px;
+}
+aside figure {
+	margin-left:-60px;
+	padding-top:15px;
+}
+
+
+footer .inside {
+	padding:148px 0 0 0;
+}
+footer a {
+	color:#fff;
+}

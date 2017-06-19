@@ -1,0 +1,89 @@
+@charset "utf-8";
+/* CSS Document */
+
+#logo,#nav,#banner,#header1,#header2,#header3,#header4{
+	
+	width:1000px;
+	margin:0 auto;}
+	
+	
+	#header1{background-color:#fff;
+		height:300px;}
+	#header2{background-color:#fff;
+		height:300px;}
+	#header3{background-color:#fff;
+		height:300px;}
+	#header4{
+		background-color:#fff;
+		height:100px;}
+	#*{
+			margin:0;
+			padding:0;}
+	ul li{
+			list-style:none;
+			text-decoration:none;
+			height:59px;
+			width:124px;
+			text-align:center; 
+			line-height:59px;
+			float:left;
+			border-right:1px solid white;
+			background-color:#000;
+			text-align:center;
+					}
+					#banner{
+						height:472px;}
+	ul li a{
+				font:Georgia, "Times New Roman", Times, serif;
+				text-decoration:none;
+				font-size:16px;
+				position:relative;	
+				color:white;}
+	#input{
+				float:right;
+				background-color:#999;}
+	.renli{ border:0;}
+	.navbar {
+		padding: 0;
+    display:table;
+   
+}
+.navbar li {
+    display:table-cell;
+}
+.navbar li + li {
+    padding-left:0px;
+}
+#zixun,#jieshao,#zhaopin,#chanpin1,#chanpin2,#chanpin3,#list1,#list2{
+	float:left;
+	margin: 0 auto;
+	
+	}
+	#zixun{
+		width:550px;}
+	#jieshao,#zhaopin{
+		width:200px;
+		padding:2px;
+				}
+	#pic{
+			float:left;
+			margin:0 auto;
+			width:250px;}
+	#chanpin1{
+				width:500px;}
+				#list1{
+					width:150px;}
+	#chanpin2{
+		width:200px;}
+		#chanpin3{
+				width:300px;}
+				#footer1,#footer2{
+					font-size:10px;}
+					#footer1{
+						float:left;
+						width:300px;
+						}
+						#footer2{
+							float:left;
+							width:700px;}
+					

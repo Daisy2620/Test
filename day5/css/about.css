@@ -1,0 +1,23 @@
+@charset "utf-8";
+/* CSS Document */
+
+#content1{
+	margin:0 auto;
+	width:1440px;
+	height:620px;}
+#content1 .a1{
+	margin:0 auto;
+	width:720px;
+	float:left;}
+#content1 .a1 img{
+	width:312; height:169; }
+#content1 .a2{
+		width:320px;
+		font-family:"宋体";
+		font-size:14px;
+		color:#999;
+		margin:10px auto;
+		}
+#content1 .a3{
+		color:#999;}
+

@@ -1,0 +1,72 @@
+@charset "utf-8";
+/* CSS Document */
+
+#content1{
+	margin:0 auto;
+	width:1440px;
+	height:460px;
+	background:#CCC;
+	}
+#content1 .a1{
+	margin:10px 20px;
+    width:320px;
+	float:left;
+	background-color:#FFF;}
+#content1 .a1 img{
+	width:291px;
+	 height:188px;}
+#content1 .a2{
+		width:320px;
+		font-family:"宋体";
+		font-size:14px;
+		color:#000;
+		margin:10px auto;
+		}
+#content1 .a3{
+		color:#000;}
+		
+#content2{
+	margin:0 auto;
+	width:1440px;
+	height:440px;
+	background:#CCC;
+	}
+#content2 .a1{
+	margin:10px 20px;
+    width:320px;
+	float:left;
+	background-color:#FFF;}
+#content2 .a1 img{
+	width:291px;
+	 height:188px;}
+#content2 .a2{
+		width:320px;
+		font-family:"宋体";
+		font-size:14px;
+		color:#000;
+		margin:10px auto;
+		}
+#content2 .a3{
+		color:#000;}
+		
+
+
+.a4{
+	margin:10px 20px;
+			}
+#content3{
+	margin:0 auto;
+	padding:0;
+	width:1440px;
+	height:100px;
+	background:#CCC;}
+
+td{
+		color:#000;
+		border:#CCC;
+		background-color:#FFF;}
+table{
+	width:200px;
+	border:1px;
+		border:#CCC;
+		background-color:#FFF;}

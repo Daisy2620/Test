@@ -1,0 +1,114 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+/* banner*/		
+#banner{		margin:0 auto;}
+#banner .logo{	width:1440 ;height:500;}
+/*content1*/
+#content1{
+	margin:0 auto;
+	width:1440px;
+	height:420px;}
+#content1 .a1{
+	margin:0 auto;
+	width:360px;
+	float:left;}
+#content1 .a1 img{
+	width:304; height:169;
+	}
+#content1 .a2{
+		width:320px;
+		font-family:"宋体";
+		font-size:14px;
+		color:#999;
+		margin:10px auto;
+		}
+#content1 .a3{
+		color:#999;}
+/*content2*/		
+#content2{
+	margin:0 auto;
+	width:1440px;
+	height:440px;
+	
+	background:#999;
+	}
+ 
+#content2 .a1{
+	
+	margin:10px 20px;
+    width:320px;
+	float:left;
+	background-color:#FFF;}
+#content2 .a1 img{
+	width:291; height:188;}
+#content2 .a2{
+		width:320px;
+		font-family:"宋体";
+		font-size:14px;
+		color:#000;
+		margin:10px auto;
+		}
+#content2 .a3{
+		color:#000;}
+/*content3*/
+#content3{
+	margin:0 auto;
+	width:1440px;
+	height:420px;}
+#content3 img{
+	width:1440 ;height:340;
+	}
+/*content4*/
+#content4{
+	background-color:#666;
+	margin:0 auto;
+	width:1440px;
+	height:520px;	
+	padding:0;}
+#content4 .left {
+	width:620px;
+	margin:50px 20px;
+		float:left;}
+#content4 .left img{
+		width:611; height:419;}
+#content4 .right {
+	width:740px;
+	margin:50px 20px;
+	float:left;}
+#content4 .right .a1{
+	margin:20px 20px;
+	color:#FFF;
+	}
+#button{
+	background-color:#666;
+	color:#FFF;
+	border: 2px solid #dedede;
+	 border-radius:5px; 
+	 width:90; 
+}
+/*content5*/
+#content5{
+	margin:0 auto;
+	width:1440px;
+	float:left;
+	height:320px;	
+	padding:0;}
+#content5 .a1 {
+	margin:10px 0;
+	float:left;
+	width:288px;
+	height:150px;}
+#content5 .a1 img{
+	width:246 ;
+	height:142;}	
+#content5 .a2{
+	float:right;
+	height:50px;}
+#content5 .a2 img{
+	width:96; 
+	height:57;}
+
+
+		
